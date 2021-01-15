@@ -22,6 +22,6 @@ btn.addEventListener("click", (event) => {
     form.style.display = "none";
     secUrl.innerHTML = `<h1>Share this link with a friend</h1>
                         
-                        <p>http://127.0.0.1:5500/secret.html?${send}</p>`;
+                        <p>file:///home/ash/Desktop/Web%20Development/Front%20End/Secret-Message/secret/secret.html?${send}</p>`;
 })
 
